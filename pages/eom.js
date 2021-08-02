@@ -3,6 +3,11 @@ export const EOM = ({ employee }) => {
     <div className="page-container">
       <div>
         <h1>Employee of the Month</h1>
+        <div>
+          <h3>{employee.name}</h3>
+          <h6>{employee.position}</h6>
+          <img src={employee.image} />
+        </div>
       </div>
     </div>
   );
