@@ -1,9 +1,11 @@
 import { StrategyValues } from "pako";
 import styles from "../styles/EOM.module.css";
+import { Toolbar } from "../components/toolbar";
 
 export const EOM = ({ employee }) => {
   return (
     <div className="page-container">
+      <Toolbar />
       <div className={styles.main}>
         <h1>Employee of the Month</h1>
         <div className={styles.employeeOfTheMonth}>
